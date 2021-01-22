@@ -1,0 +1,27 @@
+// settings.json
+// Setup Api Blueprint workspace on vscode
+{
+  "go.inferGopath": false,
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/pkg/**": true,
+    "**/src/**": true,
+    "**/.git/**": true,
+  },
+  "vsdocker.imageUser": "itmakerscz-blueprints-api",
+  "json.schemas": [
+  
+  ],
+  "markdown.preview.doubleClickToSwitchToEditor": false,
+  "markdown.preview.fontSize": 11,
+  "emmet.syntaxProfiles": {
+  
+  },
+  "eslint.codeAction.showDocumentation": {  
+    "enable": true
+  },
+  "goOutliner.enableDebugChannel": true,
+  "goOutliner.extendExplorerTab": true,
+}

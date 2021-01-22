@@ -1,0 +1,27 @@
+{
+  "osm_node" : {
+    "mappings" : {
+      "osm_node" : {
+        "dynamic" : "false",
+        "properties" : {
+          "location" : {
+            "type" : "geo_point"
+          },
+          "tags" : {
+            "properties" : {
+              "key" : {
+                "type" : "text"
+              },
+              "val" : {
+                "type" : "text"
+              }
+            }
+          },
+          "visible" : {
+            "type" : "boolean"
+          }
+        }
+      }
+    }
+  }
+}

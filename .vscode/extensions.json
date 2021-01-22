@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "redhat.vscode-yaml",
+    "mongodb.mongodb-vscode",
+    "golang.go",
+    "ria.elastic"
+  ]
+}
